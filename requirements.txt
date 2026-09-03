@@ -19,6 +19,3 @@ bcrypt>=4,<5
 segno>=1.6,<2
 
 # Optional voice attendance dependencies live in requirements-voice.txt.
-.venv/
-.streamlit/secrets.toml
-__pycache__/
