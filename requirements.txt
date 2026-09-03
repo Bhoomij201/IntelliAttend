@@ -1,0 +1,24 @@
+streamlit>=1.40,<2
+
+# Utilities
+numpy>=1.26,<2
+pandas>=2.2,<3
+pillow>=10,<12
+
+# Face recognition
+scikit-learn>=1.4,<2
+dlib-bin>=19.24,<20
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
+# Database and auth
+supabase>=2,<3
+bcrypt>=4,<5
+
+# QR codes
+segno>=1.6,<2
+
+# Optional voice attendance dependencies live in requirements-voice.txt.
+.venv/
+.streamlit/secrets.toml
+__pycache__/

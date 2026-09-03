@@ -1,0 +1,13 @@
+# Optional voice attendance dependencies.
+#
+# Recommended on Windows:
+#   py -3.10 -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+#   pip install -r requirements-voice.txt
+#
+# Python 3.12 may try to compile webrtcvad from source. If you must use
+# Python 3.12, install Microsoft C++ Build Tools first.
+librosa>=0.10,<0.11
+resemblyzer==0.1.4
+webrtcvad==2.0.10; python_version < "3.12"
